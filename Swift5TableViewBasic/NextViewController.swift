@@ -16,6 +16,7 @@ class NextViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        //前の画面の結果を表示する
         todoLabel.text = toDoString
     }
     
